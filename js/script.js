@@ -28,7 +28,7 @@ function loader(){
 }
 
 function fadeOut(){
-  setTimeout(loader, 500);
+  setTimeout(loader, 3000);
 }
 
 var swiper = new Swiper(".books-slider", {
