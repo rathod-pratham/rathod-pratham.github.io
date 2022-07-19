@@ -536,11 +536,11 @@ section{
 }
 
 .deal .image{
-    flex:1 1 42rem;
+    flex:1 1 45rem;
 }
 
 .deal .image img{
-    width: 100%;
+    width: 60%;
 }
 
 .deal .content h3{
