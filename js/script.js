@@ -29,6 +29,22 @@ function fadeOut(){
   setTimeout(loader, 3000);
 }
 
+
+const button = document.querySelector("button");
+
+// const customConfetti = {
+//   particleCount: 100,
+//   startVelocity: 30,
+//   spread: 360,
+//   shapes: ["circle", "square"],
+//   gravity: 1,
+// };
+
+button.addEventListener("click", () => {
+  confetti()
+})
+
+
 var swiper = new Swiper(".books-slider", {
   loop:true,
   centeredSlides: true,
